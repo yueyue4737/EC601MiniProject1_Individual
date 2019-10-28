@@ -295,6 +295,7 @@ if __name__ == '__main__':
     print(df.head(10))
     
  # step 4: visualize the tweet data
+------------------------------------
  # visualizing_twitter_data.py
 from tweepy import API 
 from tweepy import Cursor
@@ -451,6 +452,7 @@ if __name__ == '__main__':
     #plt.show()
     
  # step5: sentiment analysis for tweet data
+ -------------------------------------------
  # sentiment_anaylsis_twitter_data.py
 from tweepy import API 
 from tweepy import Cursor
