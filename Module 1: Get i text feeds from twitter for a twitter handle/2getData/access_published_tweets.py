@@ -1,15 +1,14 @@
-from tweepy import API
-from tweepy import Cursor
+from tweepy import API # a wrapper for API
+from tweepy import Cursor # a module about pagination with Cursor objects
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler # in this case, application only
 from tweepy import Stream
 
 import twitter_credentials
 
-
 # # # # TWITTER CLIENT # # # #
 class TwitterClient():  # the class help us get what we need
-    def __init__(self, twitter_user=None):
+    def __init__(self, twitter_user=None): # make sure assign id in the following function
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
         self.twitter_client = API(self.auth)
 
@@ -32,7 +31,6 @@ class TwitterClient():  # the class help us get what we need
         for tweet in Cursor(self.twitter_client.home_timeline, id=self.twitter_user).items(num_tweets):
             home_timeline_tweets.append(tweet)
         return home_timeline_tweets
-
 
 # # # # TWITTER AUTHENTICATER # # # #
 class TwitterAuthenticator():
