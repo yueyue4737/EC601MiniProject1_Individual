@@ -8,7 +8,7 @@ import twitter_credentials
 
 
 # # # # TWITTER CLIENT # # # #
-class TwitterClient():
+class TwitterClient():  # the class help us get what we need
     def __init__(self, twitter_user=None):
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
         self.twitter_client = API(self.auth)
@@ -63,7 +63,7 @@ class TwitterStreamer():
 
 
 # # # # TWITTER STREAM LISTENER # # # #
-class TwitterListener(StreamListener):
+class TwitterListener(StreamListener):   # inheritence: help us change the name of streamlistener
     """
     This is a basic listener that just prints received tweets to stdout.
     """
@@ -82,7 +82,7 @@ class TwitterListener(StreamListener):
         return True
 
     def on_error(self, status):
-        if status == 420:
+        if status == 420: # error code 
             # Returning False on_data method in case rate limit occurs.
             return False
         print(status)
@@ -91,7 +91,7 @@ class TwitterListener(StreamListener):
 if __name__ == '__main__':
     # Authenticate using config.py and connect to Twitter Streaming API.
     hash_tag_list = ["vogue magzine", "elle magazine(us)"]
-    fetched_tweets_filename = "tweets.txt"
+    fetched_tweets_filename = "tweets_public.txt"
 
     twitter_client = TwitterClient('pycon')
     print(twitter_client.get_user_timeline_tweets(1))
