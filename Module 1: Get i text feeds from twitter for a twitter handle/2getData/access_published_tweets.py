@@ -88,10 +88,10 @@ class TwitterListener(StreamListener):   # inheritence: help us change the name 
 
 if __name__ == '__main__':
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["vogue magzine", "elle magazine(us)"]
+    hash_tag_list = ["vogue magzine", "elle magazine(us)"] # specify the hashtag in this case
     fetched_tweets_filename = "tweets_public.txt"
 
-    twitter_client = TwitterClient('pycon')
+    twitter_client = TwitterClient('pycon') # specify the user in our case
     print(twitter_client.get_user_timeline_tweets(1))
 
 #    twitter_streamer = TwitterStreamer()
