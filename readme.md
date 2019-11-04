@@ -8,8 +8,9 @@ Our target users are young female, and their friends.
 ### User Story
 As a twitter user, I want to know the like and follow of the different brands, so that I can find the topic I like, with correct hashtag. As a twitterer likes the topic of fashion(content consumer), I want to get the products I like in the coming quarter/ year.
 ### MVP
-sentiment analysis
-get the credentials
+* sentiment analysis
+* get the credentials
+
 System Design(address users stories)
 -------------------------------------
 * Streaming
