@@ -2,14 +2,22 @@ Analysis of twitter feed: Vogue or Elle, which brand is better?
 =========================
 Product Mission
 -----------------
+### Target User
+### User Story
+### MVP
 System Design(address users stories)
 -------------------------------------
 How to build the system
 ------------------------
 Testing
 -------
+### Error Condition
+### What is in my own API?
+### Text Document
+### Results
 Lesson Learned
 -----------------
+### what to avoid?
 LINKS
 ---------------------
 ### Very first two draft: 
