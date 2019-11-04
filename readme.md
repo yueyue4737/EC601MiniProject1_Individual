@@ -12,10 +12,10 @@ sentiment analysis
 get the credentials
 System Design(address users stories)
 -------------------------------------
-Streaming
-Get the published tweets
-Analyze the tweet data
-Sentiment Analysis
+*Streaming
+*Get the published tweets
+*Analyze the tweet data
+*Sentiment Analysis
 How to build the system
 ------------------------
 Testing
