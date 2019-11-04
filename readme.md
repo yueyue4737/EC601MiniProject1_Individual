@@ -29,8 +29,9 @@ Lesson Learned
 ### what's better to do?
 visualize the data
 ### what to avoid?
-(1) wait for a teamwork, assuming everything need to do by myself;
-(2) NEVER TRUST THE SHOW-OFF WORDS
+<p>(1) wait for a teamwork, assuming everything need to do by myself;
+(2) NEVER TRUST THE SHOW-OFF WORDS<p>
+  
 LINKS
 ---------------------
 ### Very first two draft: 
