@@ -16,14 +16,17 @@ System Design(address users stories)
 * Streaming
 * Get the published tweets
 * Analyze the tweet data
-* Sentiment Analysis
+* Sentiment Analysis 
 How to build the system
 ------------------------
 Testing
 -------
 ### Error Condition
+* 401 Error
 ### What is in my own API?
 ### Text Document
+* tweet_live.txt(streaming), tweet.txt(public)
+* ??
 ### Results
 Lesson Learned
 -----------------
