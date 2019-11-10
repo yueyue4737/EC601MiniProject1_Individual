@@ -23,6 +23,8 @@ Testing
 -------
 ### Error Condition
 * 401 Error
+I need to regenerate and get a new set of the keys and secrets when the server did not response.
+* dd
 ### What is in my own API?
 ### Text Document
 * tweet_live.txt(streaming), tweet.txt(public)
