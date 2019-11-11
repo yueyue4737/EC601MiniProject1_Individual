@@ -6,8 +6,6 @@ ACCESS_TOKEN_SECRET = ""
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
 
- # sentiment analysis for tweet data
- -------------------------------------------
  # sentiment_anaylsis_twitter_data.py
 from tweepy import API 
 from tweepy import Cursor
