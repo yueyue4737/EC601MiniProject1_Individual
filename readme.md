@@ -1,4 +1,4 @@
-Analysis of twitter feed: Vogue or Elle, which brand is better?
+Analysis of twitter feed: Brand Comparison
 =========================
 Product Mission
 -----------------
