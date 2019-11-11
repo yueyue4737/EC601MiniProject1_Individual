@@ -43,7 +43,6 @@ class TwitterClient():
             home_timeline_tweets.append(tweet)
         return home_timeline_tweets
 
-
 # # # # TWITTER AUTHENTICATER # # # #
 class TwitterAuthenticator():
 
@@ -69,7 +68,6 @@ class TwitterStreamer():
         # This line filter Twitter Streams to capture data by the keywords: 
         stream.filter(track=hash_tag_list)
 
-
 # # # # TWITTER STREAM LISTENER # # # #
 class TwitterListener(StreamListener):
     """
@@ -93,7 +91,6 @@ class TwitterListener(StreamListener):
             # Returning False on_data method in case rate limit occurs.
             return False
         print(status)
-
 
 class TweetAnalyzer():
     """
