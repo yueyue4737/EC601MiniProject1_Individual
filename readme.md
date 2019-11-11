@@ -1,4 +1,5 @@
-Analysis of twitter feed: Brand Comparison for fashion magazines
+Analysis of twitter feed: 
+Brand Comparison for fashion magazines
 =========================
 Product Mission
 -----------------
