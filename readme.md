@@ -46,5 +46,5 @@ LINKS
 ### Mini Project 1 REPORT(full text): 
 <p>https://docs.google.com/document/d/1B0dwUrllNpGTK2wGcTIFWn-VMFJm3Vs1_x9pHlwsm8I/edit?usp=sharing<p> 
 
-### Mini Project 1 Prsentation(Demo): 
+### Mini Project 1 Prsentation(Different ways to get the implementations): 
 <p>https://docs.google.com/presentation/d/14EmqOZQLUaHza7neDxxgbtlM6KUs0xONT0W19ziohVU/edit?usp=sharing<p>
