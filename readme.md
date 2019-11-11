@@ -3,9 +3,9 @@ Analysis of twitter feed: Brand Comparison
 Product Mission
 -----------------
 We want to give the users an insight about their brand with the main competitors. In this case, I compare Vogue and Elle, two fashion magazine. 
-### Target User
+### Target Users
 Our target users are young female, and their friends.
-### User Story
+### Users' Story
 As a twitter user, I want to know the like and follow of the different brands, so that I can find the topic I like, with correct hashtag. As a twitterer likes the topic of fashion(content consumer), I want to get the products I like in the coming quarter/ year.
 ### MVP
 * sentiment analysis
@@ -40,7 +40,7 @@ visualize the data
   
 LINKS
 ---------------------
-### Very first two draft: 
+### Coursework in different sprints: 
 <p>https://drive.google.com/file/d/1DtGXmL6IyaYiw6_5DZkvbMIYlrg1Xbxq/view?usp=sharing<p>  
 
 ### Mini Project 1 REPORT(full text): 
