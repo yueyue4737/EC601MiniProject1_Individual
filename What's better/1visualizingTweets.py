@@ -2,11 +2,6 @@
 # Variables that contains the user credentials to access Twitter API (save in the same directory)
 # Store in strings, fill in these before testing
 
-ACCESS_TOKEN = ""
-ACCESS_TOKEN_SECRET = ""
-CONSUMER_KEY = ""
-CONSUMER_SECRET = ""
-
  # visualizing_twitter_data.py
 from tweepy import API 
 from tweepy import Cursor
