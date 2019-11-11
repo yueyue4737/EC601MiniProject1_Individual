@@ -41,10 +41,10 @@ visualize the data
 LINKS
 ---------------------
 ### Coursework in different sprints: 
-<p>https://drive.google.com/file/d/1DtGXmL6IyaYiw6_5DZkvbMIYlrg1Xbxq/view?usp=sharing<p>  
+<p> https://drive.google.com/file/d/1DtGXmL6IyaYiw6_5DZkvbMIYlrg1Xbxq/view?usp=sharing <p>  
 
 ### Mini Project 1 REPORT(full text): 
-<p>https://docs.google.com/document/d/1B0dwUrllNpGTK2wGcTIFWn-VMFJm3Vs1_x9pHlwsm8I/edit?usp=sharing<p> 
+<p> https://docs.google.com/document/d/1B0dwUrllNpGTK2wGcTIFWn-VMFJm3Vs1_x9pHlwsm8I/edit?usp=sharing <p> 
 
-### Mini Project 1 Prsentation(Different ways to get the implementations): 
-<p>https://docs.google.com/presentation/d/14EmqOZQLUaHza7neDxxgbtlM6KUs0xONT0W19ziohVU/edit?usp=sharing<p>
+### Mini Project 1 Prsentation(Implementation in different ways): 
+<p> https://docs.google.com/presentation/d/14EmqOZQLUaHza7neDxxgbtlM6KUs0xONT0W19ziohVU/edit?usp=sharing <p>
