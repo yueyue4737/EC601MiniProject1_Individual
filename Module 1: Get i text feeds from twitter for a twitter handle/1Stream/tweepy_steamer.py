@@ -22,8 +22,8 @@ class TwitterStreamer():
 
         # This line filter Twitter Streams to capture data by the keywords:
 
-#       stream.filter(track=hash_tag_list)
-        stream.filter(track=['python'])
+        stream.filter(track=hash_tag_list)
+        #stream.filter(track=['vogue','elle'])
 
 # # # # TWITTER STREAM LISTENER # # # #
 class StdOutListener(StreamListener):
@@ -50,7 +50,8 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
     # Authenticate using config.py and connect to Twitter Streaming API.
 
-    hash_tag_list = ['vogue magazine','elle magazine(us)']
+    hash_tag_list = ['vogue']
+    #hash_tag_list = ['elle']
     fetched_tweets_filename = "tweets_live.txt"
 
     twitter_streamer = TwitterStreamer()
