@@ -4,7 +4,6 @@ from tweepy import Stream
 
 import twitter_credentials
 
-
 # # # # TWITTER STREAMER: streaming the twitters in real-time  # # # #
 class TwitterStreamer():
     """
@@ -22,8 +21,9 @@ class TwitterStreamer():
         stream = Stream(auth, listener)
 
         # This line filter Twitter Streams to capture data by the keywords:
-        stream.filter(track=hash_tag_list)
 
+#       stream.filter(track=hash_tag_list)
+        stream.filter(track=['python'])
 
 # # # # TWITTER STREAM LISTENER # # # #
 class StdOutListener(StreamListener):
@@ -47,10 +47,10 @@ class StdOutListener(StreamListener):
     def on_error(self, status):
         print(status)
 
-
 if __name__ == '__main__':
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["vogue magzine", "elle magazine(us)"]
+
+    hash_tag_list = ['vogue magazine','elle magazine(us)']
     fetched_tweets_filename = "tweets_live.txt"
 
     twitter_streamer = TwitterStreamer()
