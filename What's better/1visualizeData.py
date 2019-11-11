@@ -6,8 +6,6 @@ ACCESS_TOKEN_SECRET = ""
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
 
-# analyze tweet data
---------------------------
 #analyzing_tweet_data.py
 from tweepy import API 
 from tweepy import Cursor
@@ -131,8 +129,6 @@ if __name__ == '__main__':
     
     print(df.head(10))
     
- # visualize the tweet data
-------------------------------------
  # visualizing_twitter_data.py
 from tweepy import API 
 from tweepy import Cursor
