@@ -2,6 +2,7 @@
 
 
 * Do not change your topic from images to texts simply for making it easy.
+   Avoid/avoid1.png
 
 * For the beginners, we need to learn from one library first, and then expand.
 
