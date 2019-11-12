@@ -6,3 +6,7 @@
 * For the beginners, we need to learn from one library first, and then expand.
 
 * Never split the work, every one need to know the procedure from 0 to 1, even though some of them are done by specific one.
+
+* Do not use the combination of Chinese and English in your coursework, except in infromal oral speaking.
+
+* Format your markdown file, instead of saying everything is easy. 
