@@ -38,6 +38,12 @@ visualize the data
 <p>(1) wait for a teamwork, assuming everything need to do by myself;
 (2) NEVER TRUST THE SHOW-OFF WORDS<p>
   
+More Markdown Files
+=======================
+
+### avoid.md
+
+  
 LINKS
 ---------------------
 ### Coursework in different sprints: 
