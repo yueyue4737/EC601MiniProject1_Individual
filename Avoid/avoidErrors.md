@@ -5,7 +5,7 @@
 
 * For the beginners, we need to learn from one library first, and then expand.
   
- <p> https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/Avoid/avoid1.png <p>
+ https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/Avoid/avoid1.png
 
 * Never split the work, every one need to know the procedure from 0 to 1, even though some of them are done by specific one.
 
