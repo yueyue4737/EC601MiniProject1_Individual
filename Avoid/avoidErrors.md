@@ -11,8 +11,8 @@
 
 * Do not use the combination of Chinese and English in your coursework, except in infromal oral speaking.
 
- <p> https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/Avoid/avoid2.png <p>
+  ![Alt Text](https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/Avoid/avoid2.png)
 
 * Format your markdown file, instead of saying everything is easy. 
 
- <p> https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/Avoid/avoid3.png <p>
+  ![Alt Text](https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/Avoid/avoid3.png)
