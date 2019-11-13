@@ -1,14 +1,14 @@
-from tweepy import API # a wrapper for API
-from tweepy import Cursor # a module about pagination with Cursor objects
+from tweepy import API
+from tweepy import Cursor
 from tweepy.streaming import StreamListener
-from tweepy import OAuthHandler # in this case, application only
+from tweepy import OAuthHandler
 from tweepy import Stream
 
 import twitter_credentials
 
 # # # # TWITTER CLIENT # # # #
-class TwitterClient():  # the class help us get what we need
-    def __init__(self, twitter_user=None): # make sure assign id in the following function
+class TwitterClient():
+    def __init__(self, twitter_user=None):
         self.auth = TwitterAuthenticator().authenticate_twitter_app()
         self.twitter_client = API(self.auth)
 
@@ -40,7 +40,6 @@ class TwitterAuthenticator():
         auth.set_access_token(twitter_credentials.ACCESS_TOKEN, twitter_credentials.ACCESS_TOKEN_SECRET)
         return auth
 
-
 # # # # TWITTER STREAMER # # # #
 class TwitterStreamer():
     """
@@ -59,9 +58,8 @@ class TwitterStreamer():
         # This line filter Twitter Streams to capture data by the keywords:
         stream.filter(track=hash_tag_list)
 
-
 # # # # TWITTER STREAM LISTENER # # # #
-class TwitterListener(StreamListener):   # inheritence: help us change the name of streamlistener
+class TwitterListener(StreamListener):
     """
     This is a basic listener that just prints received tweets to stdout.
     """
@@ -80,18 +78,21 @@ class TwitterListener(StreamListener):   # inheritence: help us change the name 
         return True
 
     def on_error(self, status):
-        if status == 420: # error code 
+        if status == 420:
             # Returning False on_data method in case rate limit occurs.
             return False
         print(status)
 
-
 if __name__ == '__main__':
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ["vogue magzine", "elle magazine(us)"] # specify the hashtag in this case
-    fetched_tweets_filename = "tweets_public.txt"
+    # Use one at a time
+    hash_tag_list = ["vogue magazine"]
+    fetched_tweets_filename = "tweetsV.txt"
+    # hash_tag_list = ["elle magazine(us)"]
+    # fetched_tweets_filename = "tweetsE.txt"
 
-    twitter_client = TwitterClient('pycon') # specify the user in our case
+    #twitter_client = TwitterClient('voguemagazine')
+    twitter_client = TwitterClient('ELLEmagazine')
     print(twitter_client.get_user_timeline_tweets(1))
 
 #    twitter_streamer = TwitterStreamer()
