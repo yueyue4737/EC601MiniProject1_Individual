@@ -1,5 +1,4 @@
-# analyzing the text from different brands 
-:shipit:
+# analyzing the text from different brands  :+1:
 from tweepy import API
 from tweepy import Cursor
 from tweepy.streaming import StreamListener
