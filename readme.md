@@ -1,5 +1,8 @@
 Analysis of twitter feed: Brand Comparison for fashion magazines :smile:
 =========================
+User Instructions
+-------------------
+Fill in your **Twitter Consumer API keys and Access token & access token secret** in twitter_credentials.py 
 Product Mission
 -----------------
 For women, 
@@ -23,6 +26,7 @@ System Design(address users stories)
 * Get the published tweets
 * Analyze the tweet data
 * Sentiment Analysis 
+![ALT Text](https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/data/system_design.png)
 
 How to build the system
 ------------------------
@@ -34,6 +38,8 @@ Testing
 * debug
 The error messages cannot give us exact line sometimes. If you are in the terminal, the print function will help you a lot. If you are in the IDE, you can build your own test function. If the program contains so many lines, please add breakpoints. 
 ### What is in my own API?
+* get tweets(livetweets, published tweets, removing irrelevant colunms)
+* sentiment analysis in two different ways
 ### Text Document
 * tweet_live.txt(streaming), tweet.txt(public)
 * tweetE.csv, tweetV.csv
