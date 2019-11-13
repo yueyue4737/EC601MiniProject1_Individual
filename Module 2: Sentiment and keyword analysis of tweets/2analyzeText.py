@@ -1,4 +1,4 @@
-# analyzing the text from different brands 
+# analyzing_tweet_data.py
 from tweepy import API
 from tweepy import Cursor
 from tweepy.streaming import StreamListener
@@ -108,9 +108,8 @@ if __name__ == '__main__':
     tweet_analyzer = TweetAnalyzer()
 
     api = twitter_client.get_twitter_client_api()
-    
-    # make sure that you have the correct twitter id, and the count number includes the data frame
-    tweets = api.user_timeline(screen_name="voguemagazine",count=21) 
+
+    tweets = api.user_timeline(screen_name="voguemagazine",count=21)
     tweets = api.user_timeline(screen_name="ELLEmagazine", count=21)
 
     # print(dir(tweets[0]))
@@ -120,5 +119,5 @@ if __name__ == '__main__':
 
     print(df.head(10))
 
-    df.to_csv("tweetV.csv") use one at a time
+    df.to_csv("tweetV.csv")
     df.to_csv("tweetE.csv")
