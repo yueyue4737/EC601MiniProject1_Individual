@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # encoding: utf-8
 # Author - Prateek Mehta // this is a class example
+# I use other tutorial, because something wrong with my Pycharm
 
 import tweepy  # https://github.com/tweepy/tweepy
 import json5
@@ -10,6 +11,7 @@ consumer_key = ""
 consumer_secret = ""
 access_key = ""
 access_secret = ""
+
 
 def get_all_tweets(screen_name):
     # Twitter only allows access to a users most recent 3240 tweets with this method
@@ -23,7 +25,7 @@ def get_all_tweets(screen_name):
     alltweets = []
 
     # make initial request for most recent tweets (200 is the maximum allowed count)
-    new_tweets = api.user_timeline(screen_name=screen_name, count=10)
+    new_tweets = api.user_timeline(screen_name="ELLEmagazine", count=10)
     # screen_name – Specifies the screen name of the user.
     # Helpful for disambiguating when a valid screen name is also a user ID.
 
@@ -63,4 +65,5 @@ def get_all_tweets(screen_name):
 
 if __name__ == '__main__':
     # pass in the username of the account you want to download
-    get_all_tweets("@Ibra_official")
+    #get_all_tweets("voguemagazine")
+    get_all_tweets("ELLEmagazine")
