@@ -38,8 +38,8 @@ The error messages cannot give us exact line sometimes. If you are in the termin
 * tweet_live.txt(streaming), tweet.txt(public)
 * tweetE.csv, tweetV.csv
 ### Results
-![Alt Text] (https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/data/V_SENT1.png)
-![Alt Text] (https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/data/e_sent1.png)
+![Alt Text](https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/data/V_SENT1.png)
+![Alt Text](https://github.com/yueyue4737/EC601MiniProject1_YueLiu/blob/master/data/e_sent1.png)
 Lesson Learned
 -----------------
 ### what's better to do?
