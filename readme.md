@@ -1,8 +1,11 @@
 Analysis of twitter feed: Brand Comparison for fashion magazines :smile:
 =========================
+
 User Instructions
 -------------------
+
 Fill in your 'Twitter Consumer API keys and Access token & access token secret' in twitter_credentials.py 
+
 Product Mission
 -----------------
 For women, 
