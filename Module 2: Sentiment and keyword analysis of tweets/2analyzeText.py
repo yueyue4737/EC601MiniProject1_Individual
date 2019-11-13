@@ -108,9 +108,10 @@ if __name__ == '__main__':
     tweet_analyzer = TweetAnalyzer()
 
     api = twitter_client.get_twitter_client_api()
-
+    
+    # select one at a time
     tweets = api.user_timeline(screen_name="voguemagazine",count=21)
-    tweets = api.user_timeline(screen_name="ELLEmagazine", count=21)
+    #tweets = api.user_timeline(screen_name="ELLEmagazine", count=21)
 
     # print(dir(tweets[0]))
     # print(tweets[0].retweet_count)
@@ -120,4 +121,4 @@ if __name__ == '__main__':
     print(df.head(10))
 
     df.to_csv("tweetV.csv")
-    df.to_csv("tweetE.csv")
+    #df.to_csv("tweetE.csv")
