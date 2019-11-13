@@ -1,10 +1,10 @@
-#analyzing_tweet_data.py
-from tweepy import API 
+# analyzing the text from different brands :shipit:
+from tweepy import API
 from tweepy import Cursor
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
- 
+
 import twitter_credentials
 import numpy as np
 import pandas as pd
@@ -52,15 +52,15 @@ class TwitterStreamer():
     Class for streaming and processing live tweets.
     """
     def __init__(self):
-        self.twitter_autenticator = TwitterAuthenticator()    
+        self.twitter_autenticator = TwitterAuthenticator()
 
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
         # This handles Twitter authetification and the connection to Twitter Streaming API
         listener = TwitterListener(fetched_tweets_filename)
-        auth = self.twitter_autenticator.authenticate_twitter_app() 
+        auth = self.twitter_autenticator.authenticate_twitter_app()
         stream = Stream(auth, listener)
 
-        # This line filter Twitter Streams to capture data by the keywords: 
+        # This line filter Twitter Streams to capture data by the keywords:
         stream.filter(track=hash_tag_list)
 
 # # # # TWITTER STREAM LISTENER # # # #
@@ -80,7 +80,7 @@ class TwitterListener(StreamListener):
         except BaseException as e:
             print("Error on_data %s" % str(e))
         return True
-          
+
     def on_error(self, status):
         if status == 420:
             # Returning False on_data method in case rate limit occurs.
@@ -104,17 +104,21 @@ class TweetAnalyzer():
         return df
 
 if __name__ == '__main__':
-
     twitter_client = TwitterClient()
     tweet_analyzer = TweetAnalyzer()
 
     api = twitter_client.get_twitter_client_api()
+    
+    # make sure that you have the correct twitter id, and the count number includes the data frame
+    tweets = api.user_timeline(screen_name="voguemagazine",count=21) 
+    tweets = api.user_timeline(screen_name="ELLEmagazine", count=21)
 
-    tweets = api.user_timeline(screen_name="FashionMagzineBrand", count=20)
-
-    #print(dir(tweets[0]))
-    #print(tweets[0].retweet_count)
+    # print(dir(tweets[0]))
+    # print(tweets[0].retweet_count)
 
     df = tweet_analyzer.tweets_to_data_frame(tweets)
-    
+
     print(df.head(10))
+
+    df.to_csv("tweetV.csv") use one at a time
+    df.to_csv("tweetE.csv")
