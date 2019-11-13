@@ -1,4 +1,4 @@
-Analysis of twitter feed: Brand Comparison for fashion magazines :smile:
+Analysis of twitter feed: Brand Comparison for fashion magazines :smile: Yue:star: Liu :girl:
 =========================
 
 User Instructions
