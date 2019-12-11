@@ -29,3 +29,8 @@ Divided by the framework: Django Framework, Swagger, Laravel
 
 4. JSON vs XML
 This is the starting point for storing the images
+
+Go back to the twitter developer
+---
+https://developer.twitter.com
+A good part in the term project is that some group want to create their own algorithms. If necessary, we should follow their steps to do it.
