@@ -4,6 +4,9 @@
 # The purpose is to find an efficient way to use the API, including in the future
 import tweepy # an easy to learn API because of the naming way
 
+## The same error in the visualization part, it will be fixed in the miniproject3
+## For response code: https://developer.twitter.com/en/docs/basics/response-codes
+
 consumer_key = ''
 consumer_secret = ''
 access_token = ''
