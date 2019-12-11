@@ -59,7 +59,7 @@ I also want to compare the outcomes of visualization by using R and Python separ
   
 More Markdown Files
 ----------------------
-### avoid.md
+### avoidErrors.md
 
 LINKS
 ---------------------
