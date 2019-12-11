@@ -1,7 +1,7 @@
 Create your own API(Application Programming Interface)
 ====
 
-1. The API slides already explain what the API is clearly, including the two-hour video.
+1.The API slides already explain what the API is clearly, including the two-hour video.
 
 2.Again, the important part to understanding the API is to read the sets of rules. API does not provide intraction between the software and the users.
 
