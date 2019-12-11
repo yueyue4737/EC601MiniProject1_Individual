@@ -1,6 +1,7 @@
 # twitter_credentials.py(this file is used in each steps)
 # Variables that contains the user credentials to access Twitter API (save in the same directory)
 # Store in strings, fill in these before testing
+# This piece of code is used in mini project 3
 ACCESS_TOKEN = ""
 ACCESS_TOKEN_SECRET = ""
 CONSUMER_KEY = ""
