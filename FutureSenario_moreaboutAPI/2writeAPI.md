@@ -25,3 +25,6 @@ API tutorial with different programing language and different framework
 Divided by the programming language:
 Node.js API, Python API, PHP API, Ruby API, Go API, Java API, Elixir API, ASP.NET WebAPI(C#/.NET) API Tutorials
 Divided by the framework: Django Framework, Swagger, Laravel
+
+JSON vs XML
+This is the starting point for storing the images
