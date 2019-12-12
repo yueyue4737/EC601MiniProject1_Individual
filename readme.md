@@ -53,6 +53,7 @@ Lesson Learned
 -----------------
 ### what's better to do?
 I also want to compare the outcomes of visualization by using R and Python separately, which is mentioned in the “what’s better part”. 
+I tried to build a github webpage, it is unecessary in this project, but might be helpful to the poster presentation.
 ### what to avoid?
 <p>(1) wait for a teamwork, assuming everything need to do by myself;
 (2) NEVER TRUST THE SHOW-OFF WORDS<p>
